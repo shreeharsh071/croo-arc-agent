@@ -1,0 +1,22 @@
+[project]
+name = "croo-arc-agent"
+version = "0.1.0"
+description = "A paid, callable CAP agent that solves ARC-AGI-style abstract grid-reasoning puzzles, with verifiable, deterministic delivery proofs."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "croo-sdk>=0.2.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["croo_arc_agent*"]
