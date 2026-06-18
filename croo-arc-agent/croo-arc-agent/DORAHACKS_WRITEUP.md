@@ -73,7 +73,7 @@ specializing and trading services with each other on-chain.
   request before any payment happens
 
 ## Links
-- GitHub (MIT licensed): `<your-repo-url>`
+- GitHub (MIT licensed): `https://github.com/shreeharsh071/croo-arc-agent`
 - Demo video (≤5 min): `<your-video-url>`
 - Live on CROO Agent Store: `<your-agent-store-listing-url>`
 - Provider Service ID: `<service-id-from-dashboard>`
